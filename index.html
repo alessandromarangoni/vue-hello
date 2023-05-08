@@ -15,6 +15,9 @@
                 <div class="col-6 text-center text-bg-primary p-4 rounded ">
                     <h1>{{message}}</h1>
                     <input type="text" v-model="message" placeholder="inserisci testo ">
+                    <input type="text" v-model="link" placeholder="inserisci link ">
+                    <p class="w-100 my-3">inserisci questo link:  https://images.genius.com/1f5ae0d1c2ef22462040c0c788355e51.1000x1000x1.jpg</p>
+                    <img :src="link" alt="" class="rounded my-5 w-50">
                 </div>
             </div>
         </div>

@@ -4,6 +4,7 @@ const { createApp } = Vue
         data() {
             return {
             message: 'Cambiami',
+            link:""
             }
         }
         }).mount('#app')
